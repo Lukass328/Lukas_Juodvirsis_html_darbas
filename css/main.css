@@ -1,0 +1,19 @@
+header .container {
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.burger {
+  color: #999999 ;
+  font-size: 24px ;
+}
+nav {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+  display: none;
+}
