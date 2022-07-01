@@ -1,16 +1,16 @@
 /* header=== */
 header .container {
-    margin: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+margin: 32px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0;
     
     
 }
 .burger {
-  color: #999999 ;
-  font-size: 25px ;
+color: #999999 ;
+font-size: 25px ;
  
 }
 nav {
@@ -18,46 +18,44 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 100%;
-  display: none;
+display: none;
 }
 
 /* /header=== */
 
 /* hero===== */
 .main-hero {
-  padding: 32px 86.62px 0 32px ;
-  /* display: flex; */
+padding: 32px 86.62px 0 32px ;
+  
   
 }
 .graphic {
-  position: absolute;
-  z-index:-1;
-  /* position:fixed; */
-  right:0;
-  top: 3.5vh;
-  transform: translatex(50%);
-/* width: 189.62px;
-height: 278px; */
+ position: absolute;
+z-index:-1;
+right:0;
+top: 3.5vh;
+transform: translatex(50%);
+
 }
 
 
 .hero__sub-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #FF3998;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FF3998;
 }
 .hero__title {
-  font-style: normal;
+font-style: normal;
 font-weight: 900;
 font-size: 48px;
 line-height: 58px;
 }
 .hero__paragraph {
-  font-style: normal;
+font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
@@ -83,48 +81,159 @@ color: #111111;
 /* upsell======== */
 
 .upsell {
-  margin-top: 80px;
-  background: #FF8139;
-  width: 428px;
-  height: 326px;
+margin-top: 80px;
+background: #FF8139;
+width: 100%;
+height: 326px;
   
   
 }
 .upsell__texts { 
-  padding: 122px 32px 32px 32px ;
+padding: 122px 32px 32px 32px ;
   
 }
 .upsell__title {
-  width: 364px;
-  height: 96px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
-  color: #111111;
+width: 364px;
+height: 96px;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+color: #111111;
  
 }
 .upsell__paragraph {
-  width: 364px;
-  height: 60px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  color: #111111;
+width: 364px;
+height: 60px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #111111;
 }
 /* /upsell */
 
 /* companies===== */
 .companies__logo {
-  font-family: 'Roboto', sans-serif;
-  padding: 64px 32px 0 32px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  gap: 27.33px;
+font-family: 'Roboto', sans-serif;
+padding: 64px 32px 0 32px;
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+gap: 27.33px;
 }
 .companies__logo-fifth {
-  display: none;
+display: none;
 }
 /* /companies===== */
+
+/* cards=== */
+.cards__container { 
+ padding: 56px 32px 0 32px;
+}
+.cards__title {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 40px;
+ line-height: 48px;
+ color: #111111;
+
+}
+.cards__paragraph {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 150%;
+ color: #555555;
+ padding-top: 16px;
+
+
+}
+.cards__shop-link {
+text-decoration: underline;
+  
+}
+
+.card-container {
+  margin-top: 40px;
+}
+
+.card__img {
+width: 290px;
+height: 278px;
+
+  
+
+}
+.card__body { 
+
+background: #EEEEEE;
+border-bottom-right-radius: 16px;
+border-bottom-left-radius: 16px;
+display: grid;
+grid-template-columns: auto auto ; 
+grid-template-rows: auto auto auto ; 
+text-align:center;
+width: 290px;
+margin-bottom: 100px;
+}  
+.card__text-left {
+  display: grid;
+  padding: 24px ;
+  text-align: left;
+}
+.card__text-right {
+  display: grid;
+  padding: 24px 24px 24px 0;
+}
+
+.card__top-text-left{
+color: #FF8139;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+text-transform: uppercase;
+margin-top: 0;
+
+}
+
+.card__top-text {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 100%;
+ text-transform: uppercase;
+ margin-top: 0;
+ color: #777777;
+ text-align: end;
+}
+.card__middle-title {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 100%;
+ color: #111111;
+}
+.card__middle-title-right {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #111111;
+}
+.card__eth-symbol {
+  padding-right: 8px;
+}
+.card__bottom-text {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 100%;
+ color: #777777;
+ margin-top: 0;
+ padding-top: 12px;
+ 
+
+}
+/* /card================= */
