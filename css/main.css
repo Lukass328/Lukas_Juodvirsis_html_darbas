@@ -328,6 +328,9 @@ width: 207px;
 white-space: wrap;
 
 }
+.footer__upsell__paragraph-2 {
+  display: none;
+}
 /* /footer upsell============ */
 
 /* footer============================== */
@@ -477,6 +480,8 @@ line-height: 100%;
   padding: 0 0 120px 0;
   display: flex;
   justify-content: space-between;
+  order: 3;
+
 }
 .companies__logo-fifth {
   display: inline-block;
@@ -494,7 +499,10 @@ line-height: 100%;
    .cards__container-text {
     padding: 0;
    }
- 
+   
+   .four {
+    order:5 ;}
+   
  /* /cards */
 
   /* footer-upsell */
@@ -508,7 +516,17 @@ line-height: 100%;
     width: 620px;
   }
   .footer__upsell__paragraph {
+    display: none;
+  }
+  .footer__upsell__paragraph-2 {
+    display: inline-block;
     width: 537px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+    white-space: wrap;
   }
   /* footer-upsell */
   /* footer========== */
