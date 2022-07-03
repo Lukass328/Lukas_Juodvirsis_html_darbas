@@ -3,7 +3,7 @@
   }
   
   body {
-    
+    max-width: 1440px;
     margin: 0;
     font-family: 'Inter', sans-serif;
     background-color: #FFFFFF;
@@ -25,12 +25,12 @@
   h5,
   h6,
   body {
-    margin: 0 auto;
+    margin: 0
    
   }
   
   .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 auto ;
   }
